@@ -1,0 +1,36 @@
+/* Benefits Styles */
+.benefits {
+    background-color: var(--color-surface);
+}
+
+.benefits h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+}
+
+.benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.benefit-card {
+    background-color: rgba(31, 41, 55, 0.5);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.benefit-card__icon {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.benefit-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.benefit-card p {
+    color: var(--color-text-secondary);
+}

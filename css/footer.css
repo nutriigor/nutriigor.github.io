@@ -1,0 +1,47 @@
+/* Footer Styles */
+.footer {
+    background-color: var(--color-background);
+    padding: 3rem 0;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.footer__brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer__social a {
+    color: var(--color-text-secondary);
+    transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+    color: var(--color-text);
+}
+
+.footer__bottom {
+    text-align: center;
+    color: var(--color-text-secondary);
+}
+
+.footer__bottom p:first-child {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .footer__content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

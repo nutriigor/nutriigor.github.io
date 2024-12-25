@@ -1,0 +1,76 @@
+/* CTA Styles */
+.cta {
+    background: linear-gradient(to top, var(--color-background), var(--color-surface));
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    color: var(--color-text-secondary);
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.cta__buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact p {
+    margin-bottom: 2rem;
+    color: #ccc; /* Cinza claro */
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact__form label {
+    text-align: left;
+    font-weight: bold;
+    color: #ccc; /* Cinza claro */
+}
+
+.contact__form input {
+    padding: 0.5rem;
+    border: 1px solid #555; /* Borda cinza média */
+    border-radius: 5px;
+    background-color: #222; /* Fundo cinza escuro */
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact__form input::placeholder {
+    color: #888; /* Placeholder cinza claro */
+}
+
+.contact__form input:focus {
+    outline: none;
+    border-color: #2ecc71; /* Verde */
+    background-color: #444; /* Cinza mais claro */
+}
+
+.contact__form .btn--submit {
+    background-color: #2ecc71; /* Verde */
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact__form .btn--submit:hover {
+    background-color: #27ae60; /* Verde escuro */
+}
