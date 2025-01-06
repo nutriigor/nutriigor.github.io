@@ -18,7 +18,7 @@ const benefits = [
     },
     {
         title: 'Experiência Real',
-        description: 'Sou nutricionista, militar e atleta de jiu-jitsu, entendo a importância da performance.'
+        description: 'Sou nutricionista, militar e praticante de jiu-jitsu, entendo a importância da performance.'
     }
 ];
 
